@@ -1,0 +1,24 @@
+.title{
+    color: green;
+    font-size: 3rem;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+.btn{
+    font-size: 2rem;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+div{
+    margin-top: 20px;
+}
+.start{
+    background-color: green;
+   
+}
+.hover{
+    background-color: purple;
+}

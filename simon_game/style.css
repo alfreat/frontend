@@ -1,0 +1,83 @@
+
+body{
+    background-color: rgb(4, 14, 29);
+}
+
+
+.game_name{
+    color: #800080;
+    font-size: 3rem;
+}
+.head{
+    color: green;
+    text-align: center;
+    
+}
+.score{
+    background-color: grey;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-bottom: 5vh;
+    display: inline-flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center ;
+    font-size: 2rem;
+
+}
+.score p{
+    padding-top:20px;
+    font-weight: 600;
+}
+
+    
+.container{
+    display: grid;
+    width: 300px;
+    height: 300px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    /* border: 5px solid black; */
+    margin: auto;
+    
+}
+.box{
+    /* display: inline-block; */
+    /* width: 150px; */
+    /* height: 150px; */
+    /* margin: 5px; */
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#green{
+    background-color: rgb(3, 146, 3);
+    
+    
+}
+#red{
+    background-color: rgb(206, 5, 5);
+    
+}
+#blue{
+    background-color: rgb(14, 14, 247);
+  
+}
+#yellow{
+    background-color: rgb(247, 181, 39);
+    
+   
+}
+.pressed{
+    box-shadow: 0 0 10px wheat;
+    opacity: 0.6;
+}
+.gameOver{
+    background-color: rgb(247, 48, 48);
+}
+
+.challenge span{
+    color: orangered;
+}

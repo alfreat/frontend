@@ -1,0 +1,10 @@
+h1 {
+  color: red;
+  
+}
+.vanish{
+  visibility: hidden;
+}
+.huge{
+  font-size: 5rem;
+}
